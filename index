@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Popular - Club Universitario Cosquín (C.A.U.)</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="top-bar">
+        <div class="container top-bar-flex">
+            <span><i class="fa-solid fa-location-dot"></i> Club Atlético Universitario, Cosquín, Córdoba</span>
+            <span><i class="fa-solid fa-clock"></i> Lunes a Viernes: 9 a 18 h | Sábados: 9 a 13 h[cite: 4, 7, 10]</span>
+        </div>
+    </div>
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-badge">C.A.U.</div>
+                <div class="logo-text">
+                    <strong>Biblioteca Popular</strong>
+                    <span>Club Universitario Cosquín</span>
+                </div>
+            </a>
+            <nav class="navbar" id="navbar">
+                <a href="#inicio">Inicio</a>
+                <a href="#quienes-somos">Quiénes somos</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#actividades">Actividades</a>
+                <a href="#membresia">Membresía</a>
+                <a href="#contacto" class="btn-nav">Contacto</a>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECCIÓN HERO -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge-pill">Cultura, saber y comunidad en Cosquín[cite: 1]</span>
+                <h1>Integración sociocultural en el corazón de las Sierras[cite: 2]</h1>
+                <p>La Biblioteca Popular del Club Universitario ofrece libros, recursos digitales y actividades culturales al alcance de toda la comunidad serrana[cite: 1]. ¡Socios y vecinos, bienvenidos![cite: 1]</p>
+                <div class="hero-buttons">
+                    <a href="#membresia" class="btn btn-primary">Hacerse socio[cite: 1]</a>
+                    <a href="#catalogo" class="btn btn-secondary">Explorar catálogo[cite: 1]</a>
+                </div>
+            </div>
+            <div class="hero-card-box">
+                <div class="bulletin-card">
+                    <span class="tag-special">Edición Especial</span>
+                    <h3>Boletín Digital de Socios y Nuevos Ingresos[cite: 1]</h3>
+                    <p>Primeros pasos en la búsqueda digital y uso del catálogo en la nube[cite: 6].</p>
+                    <div class="stats-mini">
+                        <div><strong>+500</strong> <span>Volúmenes[cite: 3]</span></div>
+                        <div><strong>+200</strong> <span>Socios[cite: 3]</span></div>
+                        <div><strong>2</strong> <span>Años[cite: 3]</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIÉNES SOMOS -->
+    <section id="quienes-somos" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Una biblioteca nacida del compromiso universitario</h2>
+                <p>Formamos parte de la Red de Bibliotecas Populares de la provincia de Córdoba[cite: 3]</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>La Biblioteca Popular del Club Universitario de Cosquín nació de la convicción de que el acceso al conocimiento es un derecho de todos[cite: 3]. Trabajamos junto al Club Atlético Universitario para integrar cultura, deporte y comunidad en un mismo espacio[cite: 3].</p>
+                    <ul class="check-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Préstamo a domicilio ágil y transparente.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Sala de lectura equipada para estudio e investigación[cite: 3].</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Talleres culturales y alfabetización digital[cite: 4, 6].</li>
+                    </ul>
+                </div>
+                <div class="about-stats-grid">
+                    <div class="stat-box">
+                        <h3>+500</h3>
+                        <p>Volúmenes disponibles en literatura, historia y ciencia[cite: 3, 4]</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>+200</h3>
+                        <p>Socios activos disfrutando del acervo[cite: 3]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Servicios para todos los vecinos de Cosquín</h2>
+                <p>Sin barreras y accesible para toda la comunidad[cite: 3]</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-box"><i class="fa-solid fa-book-open"></i></div>
+                    <h3>Préstamo de libros</h3>
+                    <p>Hasta 3 libros por 15 días, renovables por otros 15 días[cite: 4, 7].</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fa-solid fa-laptop"></i></div>
+                    <h3>Catálogo en la nube</h3>
+                    <p>Consultá el fondo bibliográfico las 24 horas desde tu celular o computadora[cite: 4].</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fa-solid fa-users-rectangle"></i></div>
+                    <h3>Sala de lectura</h3>
+                    <p>Espacio tranquilo y equipado para estudiar, investigar o leer[cite: 3].</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fa-solid fa-calendar-days"></i></div>
+                    <h3>Extensión cultural</h3>
+                    <p>Talleres, club de lectura y actividades para niños y adultos[cite: 4].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATÁLOGO INTERACTIVO -->
+    <section id="catalogo" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Catálogo en Línea</h2>
+                <p>Buscá por título, autor o materia y verificá la disponibilidad en tiempo real[cite: 4, 5]</p>
+            </div>
+
+            <!-- Controles del Catálogo -->
+            <div class="catalog-controls">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="searchInput" placeholder="Buscar por título, autor o tema...">
+                </div>
+                <div class="filter-buttons" id="categoryFilters">
+                    <button class="filter-btn active" data-filter="todos">Todos</button>
+                    <button class="filter-btn" data-filter="literatura">Literatura[cite: 5]</button>
+                    <button class="filter-btn" data-filter="historia">Historia Regional[cite: 5]</button>
+                    <button class="filter-btn" data-filter="infantil">Infantil y Juvenil[cite: 5]</button>
+                    <button class="filter-btn" data-filter="sociales">Ciencias Sociales[cite: 5]</button>
+                </div>
+            </div>
+
+            <!-- Grilla de Libros -->
+            <div class="books-grid" id="booksGrid">
+                <!-- Se generan dinámicamente con JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ACTIVIDADES Y PROGRAMACIÓN 2026 -->
+    <section id="actividades" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Programación 2026</h2>
+                <p>Actividades que conectan el espacio deportivo y cultural del club[cite: 5, 6]</p>
+            </div>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <span class="badge-date">12 de Noviembre, 2026</span>
+                    <h3>Club de Lectura: Edición Especial</h3>
+                    <p>Elegimos juntos la próxima lectura compartida. Espacio abierto a socios y vecinos interesados en conversar sobre libros[cite: 6].</p>
+                </div>
+                <div class="activity-card">
+                    <span class="badge-date">Sábados de Noviembre, 10 h</span>
+                    <h3>Taller Digital de Alfabetización</h3>
+                    <p>Primeros pasos en la búsqueda digital y uso del catálogo en la nube. Orientado a adultos mayores, sin conocimientos previos[cite: 6].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEMBRESÍA Y REQUISITOS -->
+    <section id="membresia" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tres pasos para ser socio lector</h2>
+                <p>Socios del Club Universitario acceden directamente; los vecinos cuentan con cuota accesible[cite: 7]</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Acercate con DNI</h3>
+                    <p>Visitanos en horario de atención sin turno previo[cite: 7].</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Completá el formulario</h3>
+                    <p>Te entregamos una ficha breve con tus datos y preferencias[cite: 7].</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Retirá tu credencial</h3>
+                    <p>Llevate hasta 3 libros en el mismo día[cite: 7].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ / ACORDEÓN -->
+    <section class="section">
+        <div class="container container-sm">
+            <div class="section-title">
+                <h2>Preguntas Frecuentes</h2>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">¿Cómo puedo asociarme a la biblioteca? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="accordion-body"><p>Presentando tu DNI en secretaría. Los socios del club no pagan cuota adicional y los vecinos tienen una tarifa simbólica mensual[cite: 7].</p></div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">¿Cómo funciona el préstamo a domicilio? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="accordion-body"><p>Podés retirar hasta 3 ejemplares por un plazo de 15 días, con opción a renovarlo por otros 15 días[cite: 4, 7].</p></div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">¿Los talleres culturales tienen costo? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="accordion-body"><p>La mayoría de las actividades de extensión y alfabetización digital son abiertas y gratuitas para la comunidad.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO Y UBICACIÓN -->
+    <section id="contacto" class="section bg-dark text-white">
+        <div class="container footer-grid">
+            <div>
+                <div class="logo footer-logo">
+                    <div class="logo-badge">C.A.U.</div>
+                    <div class="logo-text">
+                        <strong>Biblioteca Popular</strong>
+                        <span>Club Universitario Cosquín</span>
+                    </div>
+                </div>
+                <p>Cultura, lectura y comunidad en el Valle de Punilla[cite: 10]. Parte de la Red de Bibliotecas Populares de Córdoba[cite: 3, 10].</p>
+                <p class="mt-2"><i class="fa-solid fa-phone"></i> +54 9 3541 00-0000[cite: 10]</p>
+                <p><i class="fa-solid fa-envelope"></i> biblioteca@universitariocosquin.org.ar[cite: 10]</p>
+            </div>
+            <div>
+                <h3>Horarios de Atención</h3>
+                <p><strong>Lunes a Viernes:</strong> 9:00 a 18:00 h[cite: 4, 7, 10]</p>
+                <p><strong>Sábados:</strong> 9:00 a 13:00 h[cite: 4, 7, 10]</p>
+                <h3 class="mt-3">Mantenete conectado</h3>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" placeholder="Ingresá tu correo electrónico[cite: 10]" required>
+                    <button type="submit" class="btn btn-primary">Suscribirme</button>
+                </form>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2026 Biblioteca Popular del Club Atlético Universitario Cosquín, Córdoba Argentina[cite: 11].</p>
+        </div>
+    </section>
+
+    <!-- Script JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
